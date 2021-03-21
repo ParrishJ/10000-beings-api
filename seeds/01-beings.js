@@ -18,7 +18,7 @@ exports.seed = function(knex) {
        {name: 'Doctor', description: 'Diagnoses and cures various diseases and ailments.'},
        // 10
        {name: 'Comedian', description: 'Hones the craft of making people laugh. Performs on stage and in film.'},
-       {name: 'Cat', description: 'Hones the craft of making people laugh. Performs on stage and in film.'},
+       {name: 'Cat', description: 'Small, furry mammals commonly kept as pets by human beings. Independent and sometimes fickle in their temperament.'},
 
 
       ])
