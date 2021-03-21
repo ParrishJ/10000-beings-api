@@ -2,7 +2,7 @@
 
 I created this API for creative writers, role playing game enthusiasts, front end web developers, and other creatives. This API contains a number of real and fictional “beings”, their categories, and some actions that these beings might take in their respective worlds. The idea here is that if a creative writer or individual playing a tabletop RPG has a block and needs some inspiration, they can use this API to generate a new “being”, or character. 
 
-This API is a work in progress. There are currently only 10 beings in the database, although I will continue to add more over the coming weeks and months. 
+This API is a work in progress. There are currently only 12 beings in the database, although I will continue to add more over the coming weeks and months. 
 
 The API is hosted at [ten-thousand-beings-api.herokuapp.com](https://ten-thousand-beings-api.herokuapp.com)
 
@@ -35,6 +35,15 @@ The API is hosted at [ten-thousand-beings-api.herokuapp.com](https://ten-thousan
 | `getBeingActions`     | Takes an `id` and resolves to an array of all actions belonging to the being at that `id`|
 
 ## Categories
+
+The categories in the database are as follows: 
+
+| id | Category   | Description                                                              |
+| ------ | ---------- | --------------------------------------------------------------------- |
+| 1 | Real Life | Everyday, mundane reality |
+| 2 | Science Fiction | Beings from any world, typically from the future, where science has had a profound impact (for better or for worse) |
+| 3 | Fantasy | Beings from a world marked by magic |
+| 4 | Animal | Non-human, Non-plant multicellular life forms from planet Earth |
 
 ### Categories Endpoints
 
