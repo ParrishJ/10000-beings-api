@@ -16,6 +16,11 @@ exports.seed = function(knex) {
        {name: 'Whale Shark', description: 'An enormous shark that subsists on plankton. A gentle giant.'},
        {name: 'Web Developer', description: 'Leverages technology to create content for the web.'},
        {name: 'Doctor', description: 'Diagnoses and cures various diseases and ailments.'},
+       // 10
+       {name: 'Comedian', description: 'Hones the craft of making people laugh. Performs on stage and in film.'},
+       {name: 'Cat', description: 'Hones the craft of making people laugh. Performs on stage and in film.'},
+
+
       ])
     })
     
@@ -42,6 +47,10 @@ exports.seed = function(knex) {
         {being_id: 8, category_id: 4},
         {being_id: 9, category_id: 1},
         {being_id: 10, category_id: 1},
+        //10
+        {being_id: 11, category_id: 1},
+        {being_id: 12, category_id: 4},
+        
       ]);
     })
     .then(function (){
@@ -60,6 +69,10 @@ exports.seed = function(knex) {
         {being_id: 9, action_description: 'Learn a new programming language'},
         {being_id: 9, action_description: 'Fix the bug on line 217'},
         {being_id: 10, action_description: 'Advise patient on habits to live a healthy life'},
+        //10
+        {being_id: 11, action_description: 'Perform for sold out audience in the historic theater'},
+        {being_id: 12, action_description: 'Curl up in the sunshine for a quick nap.'},
+        
       ])
     })
 };
