@@ -19,8 +19,9 @@ exports.seed = function(knex) {
        // 10
        {name: 'Comedian', description: 'Hones the craft of making people laugh. Performs on stage and in film.'},
        {name: 'Cat', description: 'Small, furry mammals commonly kept as pets by human beings. Independent and sometimes fickle in their temperament.'},
-
-
+       {name: 'Farmer', description: 'Rises early to plant, harvest, and cultivate produce to sell to the public.'},
+       {name: 'Artist', description: 'Uses a number of different mediums to invoke emotions and thought in those that see the artist’s work.'},
+       {name: 'Knight', description: 'A noble warrior and guardian of law and order for the kingdom.'},
       ])
     })
     
@@ -50,6 +51,10 @@ exports.seed = function(knex) {
         //10
         {being_id: 11, category_id: 1},
         {being_id: 12, category_id: 4},
+        {being_id: 13, category_id: 1},
+        {being_id: 13, category_id: 3},
+        {being_id: 14, category_id: 1},
+        {being_id: 15, category_id: 3},
         
       ]);
     })
@@ -72,6 +77,10 @@ exports.seed = function(knex) {
         //10
         {being_id: 11, action_description: 'Perform for sold out audience in the historic theater'},
         {being_id: 12, action_description: 'Curl up in the sunshine for a quick nap.'},
+        {being_id: 13, action_description: 'Harvest the season’s bounty at the end of the season.'},
+        {being_id: 14, action_description: 'Paint a large mural on the side of an old, dilapidated building in the center of town.'},
+        {being_id: 14, action_description: 'Host a showing of new work at a gallery.'},
+        {being_id: 15, action_description: 'Go on a quest to slay the dragon that has been destroying the kingdom.'},
         
       ])
     })
